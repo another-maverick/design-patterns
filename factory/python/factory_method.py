@@ -65,7 +65,7 @@ factory.register_format('XML', XmlSerializer)
 
 
 class ObjectSerializer:
-    
+
     def serialize(self, serializable, format):
         serializer = factory.get_serializer(format)
         serializable.serialize(serializer)
