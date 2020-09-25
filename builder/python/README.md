@@ -21,6 +21,8 @@
 
 ## Process
 
+### Director makes use of a Builder to build a Product
+
 * Director gets an instance of builder which has the getters for the product. 
 * Director initializes the product object that has the setters.
 * Director uses the getters to get details and set those details in the product
